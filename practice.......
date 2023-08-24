@@ -1,0 +1,63 @@
+swap two numbers without using third varibale
+
+import java.util.*;
+public class Basics{
+
+  public static void main(String args[]){
+  Scanner sc =new Scanner(System.in);
+  int a=35;
+  int b=20;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    System.out.println(a);
+    System.out.println(b);
+}
+}
+
+
+---------------------------------------------------------------------------------------------
+fa to celsius
+
+import java.util.*;
+public class Basics{
+
+  public static void main(String args[]){
+  Scanner sc =new Scanner(System.in);
+  int a=35;
+  int b=20;
+  int gap =sc.nextInt();
+  for(int i =starting; i <= ending; i= i+gap)
+  {
+    int d=(i -32)*5/9;
+    System.out.println(d);
+  }
+ }
+}
+
+-------------------------------------------------------------------------------------------
+
+print series of 3n+2 and not multiple of 4
+
+
+import java.util.*;
+public class Basics{
+
+  public static void main(String args[]){
+  Scanner sc=new Scanner(System.in);
+  int n = sc.nextInt();
+  for(int i=1; i<n; i++)
+  {
+    int calculate =(3*i)+2;
+    if(calculate%4 != 0){
+        System.out.print(calculate +" ");
+    }
+    else
+    {
+      continue;
+    }
+    
+  }
+}
+
+}
