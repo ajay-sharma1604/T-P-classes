@@ -1,0 +1,141 @@
+************************************        DAY-3     **********************************************
+
+public class Basics{
+public static void main(String args[]){   
+ int var1=5;
+ int var2=6;
+ if((var2=1)==var1){
+  System.out.print(var2);
+ }
+else{
+  System.out.print(var2+1);
+}
+}
+}
+                     output- 2 // latest value of var2 is 1 and 1+1 is 2.
+---------------------------------------------------------------------------------------------
+public class Basics{
+public static void main(String args[]){   
+int a=10;
+int b=20;
+char c='a';
+System.out.println(a+c);
+}
+}                  output-107 //aascii value of a is 97
+
+---------------------------------------------------------------------------------------------
+
+public class Basics{
+
+  public static void main(String args[]){
+   
+int a=9;
+double b=5.0;
+double c=a/b;
+System.out.println(c);
+System.out.println(10+5);
+System.out.println(10-5);
+System.out.println(10*5);
+System.out.println(10/5);
+System.out.println(10%5);
+System.out.println(10*8+5-3);
+}
+}                             
+                          output -
+        1.8
+        15
+        5
+        50
+        2
+        0
+        82
+
+----------------------------------------------------------------------------------------
+x++ - Old value use and then value change
+
+public class Basics{
+public static void main(String args[]){
+   
+int x=10;
+int y=20;
+System.out.println(x++);
+}
+}                   output-10
+
+-------------------------------------------------------------------------------------
+++x- Value change and then value use
+
+public class Basics{
+public static void main(String args[]){
+   
+int x=10;
+int y=20;
+System.out.println(++x);
+}
+}                  Output-11
+
+-------------------------------------------------------------------------------------
+--y =value change and use
+
+public class Basics{
+public static void main(String args[]){
+   
+int x=10;
+int y=20;
+System.out.println(--y);
+}
+}                Output-19
+
+-------------------------------------------------------------------------------------
+y-- = Value use and then change
+
+public class Basics{
+public static void main(String args[]){
+   
+int x=10;
+int y=20;
+System.out.println(y--);
+}
+}              Output-20
+
+-------------------------------------------------------------------------------------
+
+public class Basics{
+public static void main(String args[]){
+   
+int x=10;
+int y=20;
+System.out.println(x++ + ++y);
+}
+}          Output-31
+
+--------------------------------------------------------------------------------------
+
+public class Basics{
+public static void main(String args[]){
+   
+int a=10;
+int b=20;                                                 Output:
+//System.out.println("a==b =" + (a==b));                              //false
+//System.out.println("a!=b =" + (a!=b));                              //true
+//System.out.println("a>b =" + (a>b));                                //false
+//System.out.println("a<b =" + (a<b));                                //true
+//System.out.println("b>=a =" + (b>=a));                              //true
+//System.out.println("b<=a =" + (b<=a));                             //false
+}
+}
+
+----------------------------------------------------------------------------------
+
+public class Basics{
+public static void main(String args[]){
+   boolean a=true;
+   boolean b=false;
+   //System.out.println("a && b =" + (a&&b));  //false ( when both true then only output true)
+   //System.out.println("a || b =" + (a||b)); //true (when both false then only output false)
+   //System.out.println("!(a && b)=" + !(a&&b)); //true
+
+}
+}
+
+---------------------------------------------------------------------------------------
