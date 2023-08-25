@@ -30,6 +30,7 @@ public class Basics{
     }
   }
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 question 2:  Take input from user and calculate 3i+2 upto total no of terms as input from user and if answer is multiple of 4 then do not print and if not multiple of 4 print in the series.
 
 import java.util.*;
@@ -56,7 +57,7 @@ public class Basics{
     }
   }
 }
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 question 3:  Take character input , if lowercase character then "print 0", if uppercase charcater then "print 1" and other cases " print -1".
 
 import java.util.*;
@@ -78,3 +79,5 @@ public class Basics{
   
   }
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
