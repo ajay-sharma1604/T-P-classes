@@ -30,4 +30,29 @@ public class Basics{
     }
   }
 
-question 2: 
+question 2:  Take input from user and calculate 3i+2 upto total no of terms as input from user and if answer is multiple of 4 then do not print and if not multiple of 4 print in the series.
+
+import java.util.*;
+public class Basics{
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter Input");
+    int n=sc.nextInt();
+    if(n>1000){
+      return;
+    }
+    int count=1;
+    int i=1;
+    while(count<=n){
+      int calculate=(3*i)+2;
+      if(calculate%4!=0){
+        System.out.print(calculate+ " ");
+        i++;
+        count++;
+      }
+      else{
+          i++;
+      }
+    }
+  }
+}
