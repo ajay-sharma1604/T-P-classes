@@ -56,3 +56,25 @@ public class Basics{
     }
   }
 }
+
+question 3:  Take character input , if lowercase character then "print 0", if uppercase charcater then "print 1" and other cases " print -1".
+
+import java.util.*;
+public class Basics{
+  public static void main(String args[]){
+    Scanner sc= new Scanner(System.in);
+    System.out.println("Enter input");
+    char ch=sc.next().charAt(0);
+    if(ch>=65 && ch<=90)
+    {
+      System.out.println("1");
+    }
+    else if(ch>=97 && ch<=122){
+      System.out.println("0");
+    }
+    else{
+      System.out.println("-1");
+  }
+  
+  }
+}
