@@ -261,3 +261,32 @@ public class Basics{
       Patterntype3d(n);
   }
 }
+
+
+---------------------------------------------------------------------------type 4
+
+Enter range:D
+ABCD
+ABCD
+ABCD
+ABCD
+
+import java.util.*;
+public class Basics{
+
+  public static void patterntype4a(char c){
+      for(char i='A';i<=c;i++){
+          for(char j='A';j<=c;j++){
+            System.out.print(j);
+          }
+          System.out.println();
+      }
+  }
+
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter range");
+      char c = sc.next().charAt(0);
+      patterntype4a(c);
+  }
+}
