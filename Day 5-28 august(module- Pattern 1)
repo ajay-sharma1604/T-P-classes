@@ -290,3 +290,33 @@ public class Basics{
       patterntype4a(c);
   }
 }
+
+
+Enter range:D
+
+ABCD
+BCDE
+CDEF
+DEFG
+
+import java.util.*;
+public class Basics{
+public static void patterntype4b(char c){
+   
+      for(char i='A';i<=c;i++){
+           char k= i;
+          for(char j='A';j<=c;j++){
+            System.out.print(k);
+            k++;
+          }
+          System.out.println();
+      }
+  }
+
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter range");
+      char c = sc.next().charAt(0);
+      patterntype4b(c);
+  }
+}
