@@ -140,3 +140,124 @@ public class Basics{
 }
 
 ------------------------------------------------------------------------------type 3
+
+Enter range: 4
+1
+12
+123
+1234
+
+ import java.util.*;
+public class Basics{
+  public static void Patterntype3a(int n){
+    
+      for(int i=1;i<=n;i++){
+         
+        for(int j=1;j<=i;j++){
+    
+        System.out.print(j);
+          }
+          
+        System.out.println();
+      }
+  }
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter range");
+      int n=sc.nextInt();
+      Patterntype3a(n);
+  }
+}
+
+Enter range: 4
+1
+23
+456
+78910
+
+ import java.util.*;
+public class Basics{
+  public static void Patterntype3b(int n){
+    int k =1;
+      for(int i=1;i<=n;i++){
+         
+        for(int j=1;j<=i;j++){
+    
+        System.out.print(k);
+        k++;
+          }
+          
+        System.out.println();
+      }
+  }
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter range");
+      int n=sc.nextInt();
+      Patterntype3b(n);
+  }
+}
+
+{very imp}
+Enter range: 4
+1
+23
+345
+4567
+
+ import java.util.*;
+public class Basics{
+  public static void Patterntype3c(int n){
+  
+        
+      for(int i=1;i<=n;i++){
+         int k=i;
+        for(int j=1;j<=i;j++){
+          
+      
+        System.out.print(k);
+        k++;
+          }
+          
+        System.out.println();
+      }
+  }
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+
+      System.out.println("Enter range");
+      int n=sc.nextInt();
+      Patterntype3c(n);
+  }
+}
+
+Enter range: 4
+1
+21
+321
+4321
+
+ import java.util.*;
+public class Basics{
+  public static void Patterntype3d(int n){
+  
+        
+      for(int i=1;i<=n;i++){
+         int k=i;
+        for(int j=1;j<=i;j++){
+        
+        System.out.print(k);
+        k--;
+          }
+          
+        System.out.println();
+      }
+  }
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+
+      System.out.println("Enter range");
+      int n=sc.nextInt();
+      Patterntype3d(n);
+  }
+}
