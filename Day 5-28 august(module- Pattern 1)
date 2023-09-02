@@ -384,3 +384,32 @@ public class Basics{
       patterntypehw2(n);
   }
 }
+
+Enter range:D
+A
+BB
+CCC
+DDDD
+
+import java.util.*;
+public class Basics{
+  public static void patterntypehw3(char n){
+   
+    for(char i='A';i<=n;i++){
+         char k=i;
+      for(char j='A';j<=i;j++){
+        System.out.print(k);
+      }
+      System.out.println();
+    }
+          
+      }
+  
+
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter range");
+     char n= sc.next().charAt(0);
+      patterntypehw3(n);
+  }
+}
