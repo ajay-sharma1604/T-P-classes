@@ -413,3 +413,33 @@ public class Basics{
       patterntypehw3(n);
   }
 }
+
+
+Enter range:D
+A
+BC
+CDE
+DEFG
+
+import java.util.*;
+public class Basics{
+
+  public static void patterntypehw4(char n){
+   
+    for(char i='A';i<=n;i++){
+         char k=i;
+      for(char j='A';j<=i;j++){
+        System.out.print(k);
+        k++;
+      }
+      System.out.println();
+    }
+          
+      }
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter range");
+     char n= sc.next().charAt(0);
+      patterntypehw4(n);
+  }
+}
