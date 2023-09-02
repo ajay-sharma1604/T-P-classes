@@ -1,0 +1,142 @@
+-----------------------------------------------------------------------------type 1
+
+Enter range:4
+****
+****
+****
+****
+  
+import java.util.*;
+public class Basics{
+
+  public static void Patterntype1(int n){
+      for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+          System.out.print("*");
+        }
+        System.out.println();
+      }
+  }
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter range");
+      int n=sc.nextInt();
+      Patterntype1(n);
+  }
+}
+
+
+-------------------------------------------------------------------------------type 2
+Enter range: 4
+1111
+2222
+3333
+4444
+  
+  import java.util.*;
+public class Basics{
+
+  public static void Patterntype2a(int n){
+      for(int i=1;i<=n;i++){
+        for(int j=0;j<n;j++){
+          System.out.print(i);
+        }
+        System.out.println();
+      }
+  }
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter range");
+      int n=sc.nextInt();
+      Patterntype2a(n);
+  }
+}
+
+Enter range:4
+1234
+1234
+1234
+1234
+
+import java.util.*;
+public class Basics{
+public static void Patterntype2b(int n){
+      for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+          System.out.print(j);
+        }
+        System.out.println();
+      }
+  }
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter range");
+      int n=sc.nextInt();
+      //Patterntype2a(n);
+      Patterntype2b(n);
+  }
+}
+
+Enter range:4
+4321
+4321
+4321
+4321
+
+
+import java.util.*;
+public class Basics{
+  public static void Patterntype2c(int n){
+    
+      for(int i=1;i<=n;i++){
+         
+        for(int j=1;j<=n;j++){
+        int k=n-j+1;
+        System.out.print(k);
+          }
+          
+        System.out.println();
+      }
+  }
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter range");
+      int n=sc.nextInt();
+      //Patterntype2a(n);
+      //Patterntype2b(n);
+      Patterntype2c(n);
+  }
+}
+
+Enter range:4
+4444
+3333
+2222
+1111
+
+ import java.util.*;
+public class Basics{
+
+
+  
+  public static void Patterntype2d(int n){
+    
+      for(int i=1;i<=n;i++){
+         
+        for(int j=1;j<=n;j++){
+        int k=n-i+1;
+        System.out.print(k);
+          }
+          
+        System.out.println();
+      }
+  }
+  public static void main(String args[]){
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter range");
+      int n=sc.nextInt();
+      Patterntype2d(n);
+  }
+}
+
+------------------------------------------------------------------------------type 3
