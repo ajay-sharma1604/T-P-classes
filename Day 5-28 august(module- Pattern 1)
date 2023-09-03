@@ -443,3 +443,32 @@ public class Basics{
       patterntypehw4(n);
   }
 }
+
+
+Please enter range:E
+E
+DE
+CDE
+BCDE
+ABCDE
+
+import java.util.*;
+public class Basics{
+
+  public static void Patternhw5(char n){
+    for(char i=n; i>= 'A'; i--){
+        char k= i;
+        for(char j=n ;j>=i; j--){
+          System.out.print(k);
+          k++;
+        }
+        System.out.println();
+    }
+  }
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Please enter range");
+    char c= sc.next().charAt(0);
+    Patternhw5(c);
+  }
+}
