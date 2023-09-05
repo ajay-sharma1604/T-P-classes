@@ -1,0 +1,48 @@
+****
+***
+**
+*
+import java.util.*;
+public class Basics{
+  public static void pattern1(int n){
+    for(int i=1;i<=n;i++){
+      for(int j=i;j<=n;j++){
+        System.out.print("*");
+      }
+      System.out.println();
+    }
+  }
+public static void main(String args[]){
+  Scanner sc =new Scanner(System.in);
+  System.out.println("Please enter input");
+  int n=sc.nextInt();
+  pattern1(n);
+}
+}
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter input : 4
+1111
+222
+33
+4
+
+import java.util.*;
+public class Basics{
+  public static void pattern2(int n){
+    for(int i=1;i<=n;i++){
+      int k=i;
+      for(int j=i;j<=n;j++){
+        System.out.print(k);
+      }
+      System.out.println();
+    }
+  }
+public static void main(String args[]){
+  Scanner sc =new Scanner(System.in);
+  System.out.println("Please enter input");
+  int n=sc.nextInt();
+  pattern2(n);
+}
+}
+------------------------------------------------------------------------------------------------------------------------------------------
