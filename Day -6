@@ -107,3 +107,34 @@ public static void main(String args[]){
   patterntype2a(n);
 }
 }
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter input: 4
+   1
+  12
+ 123
+1234
+
+import java.util.*;
+public class Basics{
+  public static void patterntype2b(int n){
+
+    for(int i=1;i<=n;i++){
+    for(int j=1;j<=n-i;j++){
+        System.out.print(" ");
+    }
+    for(int k=1;k<=i;k++){
+      System.out.print(k);
+    }
+      System.out.println();
+    }
+  }
+public static void main(String args[]){
+  Scanner sc =new Scanner(System.in);
+  System.out.println("Please enter input");
+  int n=sc.nextInt();
+  patterntype2b(n);
+}
+}
+
+
